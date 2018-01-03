@@ -1,22 +1,19 @@
 # Pre-requisites
 
 Needs Retropie 4.3 - not tested on another version.  
-It's based on a Recalbox overlays set - see credits below - so if you have Recalbox, just use the source.
+It's based on a Recalbox overlays set and ghogan42's shaders - see credits below.
 
 Works for a 16:9 screen in 1920x1080 (1080p).
 
 # Installation
 
-- Open the "configs" shared folder on you retropie installation
+- Open the `configs` shared folder on you retropie installation
 - **Recommended**: backup the folder content
-- Copy the content of the chosen "configs_xxx" folder into the share and overwrite the files.
+- Copy the content of the `configs` folder into the share and overwrite the files.
 
 # Customization
 
-If you want to use a shader on the portable consoles, there are both the gridded and gridless overlays in `config_shaders/all/retroarch/overlay/systems/`.
-Just overwrite the images in the folder with what you want.
-
-If you want to use another shader than `crt-pi-curvature` (or disable it), edit the `configs_shaders/xxx/xxx.cfg` where "xxx" is the system name (megadrive, nes...).
+If you want to use another shader than the ones configured (or disable it), edit the `configs_shaders/xxx/xxx.cfg` where "xxx" is the system name (megadrive, nes...).
 
 # Credits
 
