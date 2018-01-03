@@ -11,15 +11,6 @@ Works for a 16:9 screen in 1920x1080 (1080p).
 - **Recommended**: backup the folder content
 - Copy the content of the chosen "configs_xxx" folder into the share and overwrite the files.
 
-# Contents
-
-The `configs_noshader` folder contains overlays to use if you don't already have shaders configured for you emulators.  
-They have scanlines and pixel grids inside the overlays, so using them in addition to a shader can look funky.
-
-The `configs_shader` folder has a mix of shadered and non-shadered overlays.  
-The "regular" consoles and computers using a CRT TV are pre-configured to use the `crt-pi-curvature` shader.  
-The portable consoles (Gamegear, Gameboy...) use the overlay's pixel grids, and disable shaders.
-
 # Customization
 
 If you want to use a shader on the portable consoles, there are both the gridded and gridless overlays in `config_shaders/all/retroarch/overlay/systems/`.
@@ -34,6 +25,8 @@ If you want to use another shader than `crt-pi-curvature` (or disable it), edit 
 - [Orions angel](https://www.youtube.com/channel/UCG1g7PE9yzd4MboQQa9OYWA)
 
 [Source](https://www.screenscraper.fr/forumsujet.php?frub=43&fsuj=182)
+
+[Shaders from ghogan42](https://retropie.org.uk/forum/topic/13356/)
 
 I have just moved files around to adapt the pack for Retropie.
 
