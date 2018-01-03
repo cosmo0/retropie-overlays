@@ -11,6 +11,15 @@ Works for a 16:9 screen in 1920x1080 (1080p).
 - **Recommended**: backup the folder content
 - Copy the content of the `configs` folder into the share and overwrite the files.
 
+# Content
+
+Each system has an appropriate overlay.
+
+Portable consoles use the ghogan-lcd shader.
+
+Regular consoles use the ghogan-crt shader because, while not as good looking, it's much faster than either crt-pi or crt-pi-curvature. PSX is unplayable with crt-pi-curvature, and every game feels so much more sluggish than with ghogan-crt.  
+If you use Retropie on a powerful machine (not a pi), feel free to search-and-replace "ghogan-crt" with "crt-pi-curvature" in every cfg file.
+
 # Customization
 
 If you want to use another shader than the ones configured (or disable it), edit the `configs_shaders/xxx/xxx.cfg` where "xxx" is the system name (megadrive, nes...).
