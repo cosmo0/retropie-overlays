@@ -2,12 +2,13 @@
 
 Overlays (or bezels) are images added "above" the emulator, to mask the black borders around the image.
 
-This pack adds overlays for most systems emulated by Retropie.
+This pack adds overlays for most systems emulated by Retropie.  
+While you're here, it also configures appropriate shaders to make your games extra good-looking.
 
 **Requirements:**
 
 - Retropie 4.3 - not tested on another version.
-- A 16:9 screen. This pack is useless on a 4:3 screen, since you don't have black borders.
+- A 16:9 screen doing at least 720p. This pack is useless on a 4:3 screen, since you don't have black borders.
 
 # Installation
 
@@ -17,26 +18,30 @@ This pack adds overlays for most systems emulated by Retropie.
 
 # Content
 
-Each system has an appropriate overlay.
+Each system has an appropriate overlay and shader configured.
 
-Portable consoles use the ghogan-lcd shader.
+Emulators are configured so that your screen will switch to 720p, because it's much so faster. The overlays don't look as sharp as in 1080p obviously, but I don't find it distracting while playing.  
+See below if you want to stay in 1080p, but be warned that a pi3 is not powerful enough to be both fast and good-looking at 1080p. Yes, even with a measly old Gameboy.
 
-In 1080p, 8 bit and 16 bit consoles use the crt-pi shader. While not as good looking as crt-pi-curvature, it's much faster.  
-In 720p configuration (see below), they use crt-pi-curvature.
+In 1080p, 8 bit and 16 bit consoles use the crt-pi shader. While not as good looking as crt-pi-curvature, it's much faster, and crt-pi-curvature feels sluggish in comparison.  
+In 720p configuration, they use crt-pi-curvature, which is fine at this resolution.
 
-PSX and N64 use the ghogan-crt shader because, while not as good looking as crt-pi, it's a bit faster. PSX is unplayable with crt-pi-curvature, and more sluggish with crt-pi than with ghogan-crt.
+PSX and N64 use the ghogan-crt shader because, while not as good looking as crt-pi, it's a bit faster.  
+For instance, Moto Racer on PSX is as fast as no shader with ghogan-crt, drops a few frames here and there with crt-pi, and drops to an unplayable 15 to 30fps with crt-pi-curvature.
 
-If you use Retropie on a powerful machine (not a pi), feel free to search-and-replace "ghogan-crt" with "crt-pi-curvature" in every cfg file.
+Portable consoles use the ghogan-lcd shader, which is amazingly gorgeous and always very fast.
+
+If you use Retropie on a powerful machine (so, not a pi), feel free to search-and-replace "ghogan-crt" with "crt-pi-curvature" in every cfg file.
 
 # Customization
 
-## Using a 720p resolution in the emulators
+## Using a 1080p resolution in the emulators
 
-By default the overlays will display at a 1080p resolution.
+By default the emulators will display at a 720p resolution (the actual emulator is smaller but the whole screen is 720p).
 
-If you want better performance, use a 720p display during emulation:
+If you want better looks, you can configure the emulators to run in 1080p:
 
-- Open the `configs/all/retroarch/resolution_xxx.cfg` where "xxx" is the system (crt for all "regular" CRT screens)
+- Open the `configs/all/retroarch/overlay_cfg/resolution_xxx.cfg` file
 - Change the include of "1080p.cfg" to "720p.cfg"
 
 ## Changing the shader
