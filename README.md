@@ -17,7 +17,10 @@ Each system has an appropriate overlay.
 
 Portable consoles use the ghogan-lcd shader.
 
-Regular consoles use the ghogan-crt shader because, while not as good looking, it's much faster than either crt-pi or crt-pi-curvature. PSX is unplayable with crt-pi-curvature, and every game feels so much more sluggish than with ghogan-crt.  
+8 and 16 bit consoles use the crt-pi shader. While not as good looking as crt-pi-curvature, it's much faster.
+
+PSX and N64 use the ghogan-crt shader because, while not as good looking as crt-pi, it's a bit faster. PSX is unplayable with crt-pi-curvature, and more sluggish with crt-pi than with ghogan-crt.
+
 If you use Retropie on a powerful machine (not a pi), feel free to search-and-replace "ghogan-crt" with "crt-pi-curvature" in every cfg file.
 
 # Customization
