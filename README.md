@@ -9,12 +9,13 @@ While you're here, it also configures appropriate shaders to make your games ext
 
 - Retropie 4.3 - not tested on another version.
 - A 16:9 screen doing at least 720p. This pack is useless on a 4:3 screen, since you don't have black borders.
+- The configuration is optimized to work on a Raspbery Pi 3. It will work on more powerful hardware, but maybe not on less.
 
 # Installation
 
 - Open the `configs` shared folder on you retropie installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content
-- Copy the content of the `configs` folder from the pack into the share, and overwrite the files.
+- Copy the content of the `overlays_shaders` folder from the pack into the share, and overwrite the files.
 
 # Content
 
@@ -29,7 +30,7 @@ In 720p configuration, they use crt-pi-curvature, which is fine at this resoluti
 PSX and N64 use the ghogan-crt shader because, while not as good looking as crt-pi, it's a bit faster.  
 For instance, Moto Racer on PSX is as fast as no shader with ghogan-crt, drops a few frames here and there with crt-pi, and drops to an unplayable 15 to 30fps with crt-pi-curvature.
 
-Portable consoles use the ghogan-lcd shader, which is amazingly gorgeous and always very fast.
+Handheld consoles use the ghogan-lcd shader, which is amazingly gorgeous and always very fast.
 
 If you use Retropie on a powerful machine (so, not a pi), feel free to search-and-replace "ghogan-crt" with "crt-pi-curvature" in every cfg file.
 
@@ -41,12 +42,12 @@ By default the emulators will display at a 720p resolution (the actual emulator 
 
 If you want better looks, you can configure the emulators to run in 1080p:
 
-- Open the `configs/all/retroarch/overlay_cfg/resolution_xxx.cfg` file
+- Open the `all/retroarch/overlay_cfg/resolution_xxx.cfg` file
 - Change the include of "1080p.cfg" to "720p.cfg"
 
 ## Changing the shader
 
-If you want to use another shader than the ones configured (or disable it), edit the `configs/all/retroarch/overlay_cfg/xxx_1080p.cfg` and `xxx_720p.cfg` files, where "xxx" is the screen type (crt, arcade) or system name (gamegear, gb...).
+If you want to use another shader than the ones configured (or disable it), edit the `all/retroarch/overlay_cfg/xxx_1080p.cfg` and `xxx_720p.cfg` files, where "xxx" is the screen type (crt, arcade) or system name (gamegear, gb...).
 
 # Credits
 
