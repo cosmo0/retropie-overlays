@@ -6,14 +6,15 @@ This pack adds overlays for most common systems emulated by Retropie.
 
 ## Contents
 
-- `overlays_clean`: just the overlays, the emulator image stays clean
+- `overlays_clean`: just the overlays, no shaders.
 - `overlays_clean_integer`: just the overlays, with integer-scaled emulator size
-- `overlays_grid`: overlays with an included grid to simulate scanlines
+- `overlays_grid_integer`: overlays with an included grid to simulate scanlines, with integer-scaled emulator size
 - `overlays_shaders`: overlays with maximum emulator size, with shaders applied to simulate scanlines
 - `overlays_shaders_integer`: overlays with integer-scaled emulator size, with shaders applied to simulate scanlines
 
 What is integer-scaling? It's when the displayed resolution is a multiple of the original console resolution.  
-Why does it matter? It looks better. Shaders applied to it are faster.
+Why does it matter? It looks better. Shaders applied to it are faster.  
+However, the image does not take the whole screen. So if you prefer a large to a crisp image, use a non-integer-scaled version.
 
 ## Requirements
 
