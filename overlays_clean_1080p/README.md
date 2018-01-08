@@ -1,4 +1,4 @@
-# Overlays with shaders
+# Full screen overlays without shaders
 
 ## Content
 
