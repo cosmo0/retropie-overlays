@@ -31,6 +31,6 @@ However, the image does not take the whole screen. So if you prefer a large to a
 
 ## Credits
 
-Please see [credits](CREDITS.md).
+Please see [credits](CREDITS.md) to check out the awesome original packs I picked from.
 
 Usage of the pack in a commercial product is strictly forbidden.

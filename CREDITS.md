@@ -1,15 +1,11 @@
 # Credits
 
-Most of the heavy work has been done by others.
+Most of the heavy work has been done by others. I have mostly moved files around to make it work for Retropie, and edited a bunch of config files.
 
-I have mostly moved files around to make it work for Retropie, and edited a bunch of config files.
-
-I honestly do not remember where I picked each overlay since I spent a LOT of time browsing various forums.
-
-Here are a few places I picked images from. I have not used all of them.
+I honestly do not remember where I picked each overlay since I spent a LOT of time browsing various forums. Here are a few places I picked images from. I have not used all of them.
 
 - [Shaders by ghogan42](https://retropie.org.uk/forum/topic/13356/)
-- [Libretro overlays](https://github.com/libretro/overlay-borders and https://github.com/libretro/common-overlays)
+- Libretro overlays: [overlay-borders](https://github.com/libretro/overlay-borders) and [common-overlays](https://github.com/libretro/common-overlays)
 - [Pack by Marblemad and Kam3leon](https://www.screenscraper.fr/forumsujet.php?frub=43&fsuj=182)
 - [Pack by MezzB](https://sites.google.com/view/mezzb-overlay/home)
 - [Pack by ljubinko](https://forums.libretro.com/t/overlays-for-1680x1050-for-console-systems/6724)
