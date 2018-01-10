@@ -7,13 +7,11 @@ Each system has an appropriate overlay and shader configured.
 Emulators are configured so that your screen will switch to 720p, because it's much so faster. The overlays don't look as sharp as in 1080p obviously, but I don't find it distracting while playing.  
 See below if you want to stay in 1080p, but be warned that a pi3 is not powerful enough to be both fast and good-looking at 1080p. Yes, even with a measly old Gameboy.
 
-In 720p (the default), the 8 and 16 bit consoles use the crt-pi-curvature shader. It's nice-looking, and fast enough at this resolution.  
-In 1080p, these systems use the crt-pi shader. While not as good looking as crt-pi-curvature, it's much faster, and crt-pi-curvature feels sluggish in comparison.
+## Shaders
 
-PSX and N64 use the ghogan-crt shader because, while not as good looking as crt-pi, it's a bit faster.  
-For instance, Moto Racer on PSX is as fast as no shader with ghogan-crt, drops a few frames here and there with crt-pi, and drops to an unplayable 15 to 30fps with crt-pi-curvature.
+In 720p (the default), the 8 and 16 bit consoles use the `zfast_crt_720p_PI3` shader. It's nice-looking enough, and the fastest around.
 
-Handheld consoles use the ghogan-lcd shader, which is amazingly gorgeous and always very fast.
+Handheld consoles use the `zfast_lcd_720p` shader, which is amazingly gorgeous and always very fast.
 
 If you use Retropie on a powerful machine (so, not a pi), feel free to edit all cfg files to change the shader to something better; there are a lot of nice-looking shaders out there. Search for crt-royale, for instance.
 
