@@ -8,7 +8,7 @@ This pack adds overlays for most common systems emulated by Retropie.
 
 ## Contents
 
-Full screen emulators, full set (25 systems):
+Full screen emulators, full set (26 systems):
 
 - [overlays_clean](overlays_clean): just the overlays, no grid, no shaders.
 - [overlays_shaders](overlays_shaders): overlays with shaders applied to simulate CRT scanlines and LCD grids.
