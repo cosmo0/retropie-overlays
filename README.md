@@ -6,6 +6,11 @@ This pack adds overlays for most common systems emulated by Retropie.
 
 **Usage of the pack in a commercial product is strictly forbidden.**
 
+## Credits
+
+Please see [credits](CREDITS.md) to check out the awesome original packs I picked from.  
+I did mostly nothing except move files around and mess with config files.
+
 ## Contents
 
 Full screen emulators, full set (26 systems):
@@ -35,8 +40,3 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 - Open the `configs` shared folder on you retropie installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content!
 - Copy the content of the chosen overlays folder into the share, and overwrite the files.
-
-## Credits
-
-Please see [credits](CREDITS.md) to check out the awesome original packs I picked from.  
-I did mostly nothing except move files around and mess with config files.
