@@ -11,7 +11,7 @@ I honestly do not remember where I picked each overlay since I spent a LOT of ti
 - [Pack by ljubinko](https://forums.libretro.com/t/overlays-for-1680x1050-for-console-systems/6724)
 - Packs by [Orionsangel](https://www.youtube.com/orionsangel): [consoles](https://forums.libretro.com/t/console-themed-overlays/10472) ; [handhelds](https://forums.libretro.com/t/handheld-overlays/10477)
 - [Vintage TV by Cestus](https://forums.libretro.com/t/some-vintage-crt-overlays/12800)
-- CRT TVs by Exodus: [Panasonic](https://forums.libretro.com/t/my-panasonic-crt-overlay-for-1080p/6278) ; [flat TV](https://forums.libretro.com/t/flat-crt-fullscreen-16-9-overlay-with-day-and-night-support/9087) ; [curved TV](https://forums.libretro.com/t/classic-crt-fullscreen-16-9-overlay-with-day-and-night-support/8949)
+- [CRT TVs by Exodus](https://forums.libretro.com/t/exodus-crt-tvs-overlays-collection-with-day-and-night-support/9192)
 - [Scanlines](https://forums.libretro.com/t/scanline-overlay-w-rgb-effect-or-aperture-grill-effect/2425)
 - [720p pack by slimy](https://retropie.org.uk/forum/topic/15356/)
 - [Pack by lilbud](https://retropie.org.uk/forum/topic/13392/)
