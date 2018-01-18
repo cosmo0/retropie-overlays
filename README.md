@@ -9,7 +9,7 @@ This pack adds overlays for most common systems emulated by Retropie.
 ## Credits
 
 Please see [credits](CREDITS.md) to check out the awesome original packs I picked from.  
-I did mostly nothing except move files around and mess with config files.
+I did mostly nothing except move files around and edit config files.
 
 ## Contents
 
