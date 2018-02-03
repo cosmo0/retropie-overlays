@@ -20,7 +20,7 @@ The more advanced consoles (PSX and N64) use the `zfast_crt_720_PI3` shader, in 
 
 Handheld consoles use the `zfast_lcd_standard` shader, which is amazingly gorgeous and always very fast.
 
-If you use Retropie on a powerful machine (so, not a pi), feel free to edit all cfg files to change the shader to something better. There are a lot of nice-looking shaders out there; have a look at crt-royale, for instance.
+If you use Retropie on a more powerful machine (PC or Odroid), feel free to edit all cfg files to change the shader to something better. There are a lot of nice-looking shaders out there; have a look at crt-royale, for instance, which requires a powerful GPU to run.
 
 ## Using a 1080p resolution
 
@@ -29,5 +29,5 @@ By default the home console emulators will display at a 720p resolution (the act
 If you have a better performing hardware than a raspberry pi3, you can configure the emulators to run in 1080p:
 
 - Open the folder `all/retroarch/overlay_cfg/`
-- Edit `common_crt.cfg` and `common_arcade.cfg` and change the `video_fullscreen_x` and `video_fullscreen_y` to match 1080p (1920x1080). Comment the `custom_viewport_xxx` parameters for 720p and un-comment the 1080p ones.
+- Edit `common_crt.cfg` and change the `video_fullscreen_x` and `video_fullscreen_y` to match 1080p (1920x1080). Comment the `custom_viewport_xxx` parameters for 720p and un-comment the 1080p ones.
 - Edit `psx.cfg` and `n64.cfg` and remove the 720p shader.

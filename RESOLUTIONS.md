@@ -5,7 +5,6 @@ Why? Because it's better-looking to have the "resized emulator pixels" be multip
 
 ## What is not covered
 
-- Arcade: each system has its own resolution
 - Atari 2600: has a weird resolution that is stretched for display
 - Computers (Amstrad CPC and ZX Spectrum): too many resolutions are possible
 - Vectrex: does not really have a resolution
