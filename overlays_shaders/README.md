@@ -13,6 +13,12 @@ The handhelds do not have this shader, so they are configured in 1080p.
 The performance issue has nothing to do with the emulator used, but with the weak GPU of the raspberry pi, and the sharing of memory between GPU and CPU.  
 If you want 1080p output on all your emulators, do not use this pack.
 
+## Credits
+
+Most overlays have been created by [Marblemad & Kam3leon](https://screenscraper.fr/forumsujet.php?frub=43&fsuj=182) and [OrionsAngel](https://www.youtube.com/channel/UCG1g7PE9yzd4MboQQa9OYWA).
+
+The shaders have been created by [ghogan42](https://retropie.org.uk/forum/topic/13356/).
+
 ## Shaders
 
 The home consoles (8 and 16 bit) use the `zfast_crt_curve` shader. It's nice-looking enough, and the fastest around.  

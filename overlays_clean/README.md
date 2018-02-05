@@ -6,6 +6,10 @@ Each system has an appropriate overlay configured.
 
 They are the same as the `overlays_shaders` pack but no shaders are configured.
 
+## Credits
+
+Most overlays have been created by [Marblemad & Kam3leon](https://screenscraper.fr/forumsujet.php?frub=43&fsuj=182) and [OrionsAngel](https://www.youtube.com/channel/UCG1g7PE9yzd4MboQQa9OYWA).
+
 ## Using a 720p resolution in the emulators
 
 By default the emulators will display at a 1080p resolution (the actual emulator is smaller but the whole screen is 1080p).
