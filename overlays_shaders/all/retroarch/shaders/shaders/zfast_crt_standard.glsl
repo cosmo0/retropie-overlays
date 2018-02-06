@@ -22,14 +22,9 @@ Notes:  This shader does scaling with a weighted linear filter for adjustable
 //#define FRAGMENT
 //#define VERTEX
 
-//This can't be an option without slowing the shader down
-//Comment this out for a coarser 3 pixel mask...which is currently broken
-//on SNES Classic Edition due to Mali 400 gpu precision
 #define FINEMASK
-//Some drivers don't return black with texture coordinates out of bounds
-//SNES Classic is too slow to black these areas out when using fullscreen
-//overlays.  But you can uncomment the below to black them out if necessary
 //#define BLACK_OUT_BORDER
+//#define VERTICAL
 
 // Compatibility #ifdefs needed for parameters
 #ifdef GL_ES
@@ -49,7 +44,6 @@ Notes:  This shader does scaling with a weighted linear filter for adjustable
 #ifdef PARAMETER_UNIFORM
 // All parameter floats need to have COMPAT_PRECISION in front of them
 uniform COMPAT_PRECISION float BLURSCALEX;
-//uniform COMPAT_PRECISION float BLURSCALEY;
 uniform COMPAT_PRECISION float LOWLUMSCAN;
 uniform COMPAT_PRECISION float HILUMSCAN;
 uniform COMPAT_PRECISION float BRIGHTBOOST;
@@ -57,7 +51,6 @@ uniform COMPAT_PRECISION float MASK_DARK;
 uniform COMPAT_PRECISION float MASK_FADE;
 #else
 #define BLURSCALEX 0.45
-//#define BLURSCALEY 0.20
 #define LOWLUMSCAN 5.0
 #define HILUMSCAN 10.0
 #define BRIGHTBOOST 1.25

@@ -1,5 +1,5 @@
 /*
-    zfast_crt_curve - A simple, fast CRT shader.
+    zfast_crt_curve_vertical - A simple, fast CRT shader for vertical monitor games.
 
     Copyright (C) 2017 Greg Hogan (SoltanGris42)
 
@@ -18,6 +18,9 @@ Notes:  This shader does sharp scaling on the x and y axes based on the
 	added.  It is slower that the standard version of the filter, but still
 	generally runs as 60fps on the Raspberry Pi 3 hardware at a resolution
 	of 1440x1080px.
+	
+	The vertical version adds a rotated aperture mask for vertical games
+	on horizontal monitors.
 */
 
 //For testing compilation 
@@ -27,8 +30,8 @@ Notes:  This shader does sharp scaling on the x and y axes based on the
 //This can't be an option without slowing the shader down
 //Comment this out for a coarser 3 pixel mask...which is currently broken
 //on SNES Classic Edition due to Mali 400 gpu precision
-//#define FINEMASK
-//#define VERTICAL
+#define FINEMASK
+#define VERTICAL
 
 // Compatibility #ifdefs needed for parameters
 #ifdef GL_ES
@@ -40,7 +43,7 @@ Notes:  This shader does sharp scaling on the x and y axes based on the
 // Parameter lines go here:
 #pragma parameter CURVE "Curvature" 0.016 0.0 0.3 0.002
 #pragma parameter CORNER "Corner" 0.3 0.0 20.0 0.1
-#pragma parameter LOWLUMSCAN "Scanline Darkness" 2.0 0.0 6.0 0.1
+#pragma parameter LOWLUMSCAN "Scanline Darkness" 1.6 0.0 6.0 0.1
 #pragma parameter MASK_DARK "Mask Effect Amount" 0.05 0.0 1.0 0.01
 
 #ifdef PARAMETER_UNIFORM

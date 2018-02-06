@@ -8,7 +8,7 @@ scanLUT = "shaders/zfast_resources/zfast_scanlut.png"
 scanLUT_linear = "false"
 scanLUT_mipmap = "false"
 
-shader0 = "shaders/zfast_crt_curve.glsl"
+shader0 = "shaders/zfast_crt_curve_vertical.glsl"
 filter_linear0 = "true"
 wrap_mode0 = "clamp_to_border"
 mipmap_input0 = "false"
