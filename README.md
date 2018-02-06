@@ -37,6 +37,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 
 ## Installation
 
+- Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
 - Open the `configs` shared folder on you retropie installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content!
 - Copy the content of the chosen overlays folder into the share, and overwrite the files.
