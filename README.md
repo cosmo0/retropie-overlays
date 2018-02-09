@@ -41,3 +41,21 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 - Open the `configs` shared folder on you retropie installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content!
 - Copy the content of the chosen overlays folder into the share, and overwrite the files.
+
+## Screenshots
+
+Click for a larger version.  
+The screenshots are frankly not as good-looking as on the TV.
+
+### Clean version
+
+[![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-gb.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-gb.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-md.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-md.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-psx.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-psx.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-snes.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-snes.png)
+
+### Shader version
+
+[![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-gba.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-gba.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-ms.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-ms.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-neogeo.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-neogeo.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-nes.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-nes.png)
+
+
+### Grid version
+
+[![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-gbc.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-gbc.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-gg.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-gg.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-pce.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-pce.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-castle.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-snes.png)
