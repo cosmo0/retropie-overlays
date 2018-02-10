@@ -11,6 +11,8 @@ This pack adds overlays for most common systems emulated by Retropie.
 Please see [credits](CREDITS.md) to check out the awesome original packs I picked from.  
 I did mostly nothing except move files around and edit config files.
 
+If one of your file is here and you want me to remove it, or want to be credited, please [file an issue](https://github.com/cosmo0/retropie-overlays/issues).
+
 ## Contents
 
 Full screen emulators, full set (26 systems):
