@@ -18,7 +18,6 @@ If one of your file is here and you want me to remove it, or want to be credited
 
 Full screen emulators, full set (26 systems):
 
-- [overlays_clean](overlays_clean): just the overlays, no grid, no shaders.
 - [overlays_shaders](overlays_shaders): overlays with shaders applied to simulate CRT scanlines and LCD grids.
 
 Integer-scaled emulators, limited set (11 systems):
@@ -47,10 +46,6 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 
 Click for a larger version.  
 The screenshots are frankly not as good-looking as on the TV.
-
-### Clean version
-
-[![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-gb.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-gb.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-md.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-md.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-psx.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-psx.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-clear-snes.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/clear-snes.png)
 
 ### Shader version
 
