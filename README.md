@@ -2,7 +2,8 @@
 
 Overlays (or bezels) are images added "above" the emulator, to mask the black borders around the image.
 
-This pack adds overlays for most common systems emulated by Retropie.
+This pack adds overlays for most common systems emulated by Retropie.  
+The overlays are selected to be sublte, and represent the original hardware in some way. So, no bright logo and mascots.
 
 **Usage of the pack in a commercial product is strictly forbidden.**
 
