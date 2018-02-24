@@ -20,11 +20,9 @@ Full screen emulators, full set (26 systems):
 - [overlays_clean](overlays_clean): just the overlays, no grid, no shaders.
 - [overlays_shaders](overlays_shaders): overlays with shaders applied to simulate CRT scanlines and LCD grids.
 
-Integer-scaled emulators, limited set (13 systems):
+Integer-scaled emulators, limited set (11 systems):
 
-- TODO: `overlays_clean_integer`: just the overlays, no grid, no shader.
 - [overlays_grid_integer](overlays_grid_integer): overlays with an included grid to simulate scanlines.
-- TODO: `overlays_shaders_integer`: overlays with shaders applied to simulate scanlines.
 
 What is integer-scaling? It's when the displayed resolution is a multiple of the original console resolution.  
 Why does it matter? It looks better, since there are no "TV pixel" in-between 2 "emulator pixel". And shaders applied are usually better-looking.  
