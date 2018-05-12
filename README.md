@@ -16,7 +16,7 @@ If one of your file is here and you want me to remove it, or want to be credited
 
 ## Contents
 
-Full screen emulators, full set (26 systems):
+Full screen emulators, full set (35 systems):
 
 - [overlays_shaders](overlays_shaders): overlays with shaders applied to simulate CRT scanlines and LCD grids.
 
