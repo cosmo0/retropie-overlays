@@ -7,11 +7,7 @@ Each system has an appropriate overlay and shader configured to look the most li
 For the home consoles, the selected shader gives a "curved" appearance to the emulator, like you had with an old-school, not-flat TV.  
 Simulating that takes a few resources, but I think it looks better, and probably more faithful.
 
-In order to still be fast enough, the home consoles emulators are configured to run in 720p.  
-The handhelds do not have this shader, so they are configured in 1080p.
-
-The performance issue has nothing to do with the emulator used, but with the weak GPU of the raspberry pi, and the sharing of memory between GPU and CPU.  
-If you want 1080p output on all your emulators, do not use this pack.
+Prefer using a Pi 4 for better performances, a Pi 3 might be slow. Disable the shader if it's too slow for you: in `all/retroarch/overlay_cfg/common_crt.cfg`, set `video_shader_enable` to `false`.
 
 ## Credits
 

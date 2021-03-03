@@ -32,7 +32,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 ## Requirements
 
 - A Raspberry Pi 3/4 - not tested on another hardware, but there's no reason it shouldn't work.
-- Retropie 4.4+ - not tested on another version.
+- Retropie 4.7+ - not tested on another version.
 - A 16:9 screen in 1080p. This pack will be wrong in any other resolution. And it's useless on a 4:3 screen, since you don't have black borders.
 - The configuration is optimized to work on a Raspbery Pi 3/4. It will work on more powerful hardware, but maybe not on less.
 
