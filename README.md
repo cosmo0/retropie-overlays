@@ -47,6 +47,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 
 - If you want to remove the shader, open the file `all/retroarch/overlay_cfg/common_crt.cfg` and `common_lcd.cfg` and set `video_shader_enable` to `false`
 - If you want to change the image, replace the one you want in `all/retroarch/overlay/systems/`. There are a lot of alternative images in the [_sources](https://github.com/cosmo0/retropie-overlays/tree/master/_sources) folder.
+- If you want to create a new overlay yourself, use the [PSD template](https://github.com/cosmo0/retropie-overlays/tree/master/_sources/systems-custom/cutout.psd) using Photoshop or Photopea (free online editor).
 
 ## Screenshots
 
