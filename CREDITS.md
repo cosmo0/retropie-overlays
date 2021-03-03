@@ -16,5 +16,10 @@ I honestly do not remember where I picked each overlay since I spent a LOT of ti
 - [720p pack by slimy](https://retropie.org.uk/forum/topic/15356/)
 - [Pack by lilbud](https://retropie.org.uk/forum/topic/13392/)
 - [SuperGB by ruckage](https://retropie.org.uk/forum/topic/8664/)
+- [Retroarch Overlays by Duimon](https://github.com/Duimon/Retroarch-Overlays)
+- [HSM Reflection Shader Graphics by Duimon](https://github.com/Duimon/HSM-Reflection-Shader-Graphics)
+- [The Mega Bezel Commodore Pack by TheNamec](https://forums.libretro.com/t/thenamec-mega-bezel-commodore-pack-announcement/31523)
+- [DOSBox Overlay by Ifan](https://forums.libretro.com/t/dosbox-overlay-4k/19236)
+- [Classic CRT Collection by TreyM](https://github.com/TreyM/classic-crt-collection)
 
 Usage of these packs in a commercial product are strictly forbidden.
