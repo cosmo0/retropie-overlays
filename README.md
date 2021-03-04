@@ -1,4 +1,4 @@
-# Retropie overlays pack
+# Retropie & Recalbox overlays packs
 
 Overlays (or bezels) are images added "above" the emulator, to mask the black borders around the image.
 
@@ -17,13 +17,14 @@ If one of your file is here and you want me to remove it, or want to be credited
 
 ## Contents
 
-Full screen emulators, full set (64 systems):
+Full screen emulators, full set:
 
-- [overlays_shaders](overlays_shaders): overlays with shaders applied to simulate CRT scanlines and LCD grids.
+- [Recalbox](overlays_recalbox): simple overlays
+- [Retropie](overlays_retropie): overlays with shaders applied to simulate CRT scanlines and LCD grids
 
 Integer-scaled emulators, limited set (11 systems):
 
-- [overlays_grid_integer](overlays_grid_integer): overlays with an included grid to simulate scanlines.
+- [overlays_grid_integer](overlays_grid_integer): overlays with an included grid to simulate scanlines
 
 What is integer-scaling? It's when the displayed resolution is a multiple of the original console resolution.  
 Why does it matter? It looks better, since there are no "TV pixel" in-between 2 "emulator pixel". And shaders applied are usually better-looking.  
@@ -32,7 +33,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 ## Requirements
 
 - A Raspberry Pi 3/4 - not tested on another hardware, but there's no reason it shouldn't work.
-- Retropie 4.7+ or Recalbox 7+ - not tested on another version.
+- Retropie 4.7+ or Recalbox 7.1.1+ - not tested on another version.
 - A 16:9 screen in 1080p. This pack will be wrong in any other resolution. And it's useless on a 4:3 screen, since you don't have black borders.
 - The configuration is optimized to work on a Raspbery Pi 3/4. It will work on more powerful hardware, but maybe not on less.
 
@@ -54,8 +55,8 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 
 ## Modification
 
-- If you want to remove the shader, open the file `all/retroarch/overlay_cfg/common_crt.cfg` and `common_lcd.cfg` and set `video_shader_enable` to `false`
-- If you want to change the image, replace the one you want in `all/retroarch/overlay/systems/`. There are a lot of alternative images in the [_sources](https://github.com/cosmo0/retropie-overlays/tree/master/_sources) folder.
+- If you want to remove the Retropie shader, open the files `all/retroarch/overlay_cfg/common_crt.cfg` and `common_lcd.cfg` and set `video_shader_enable` to `false`
+- If you want to change the image, replace the one you want in `all/retroarch/overlay/systems/` (Retropie) or in `overlays/` (Recalbox). There are a lot of alternative images in the [_sources](https://github.com/cosmo0/retropie-overlays/tree/master/_sources) folder.
 - If you want to create a new overlay yourself, use the [PSD template](https://github.com/cosmo0/retropie-overlays/tree/master/_sources/systems-custom/cutout.psd) using Photoshop or Photopea (free online editor).
 
 ## Screenshots
@@ -66,7 +67,6 @@ The screenshots are frankly not as good-looking as on the TV.
 ### Shader version
 
 [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-gba.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-gba.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-ms.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-ms.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-neogeo.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-neogeo.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-nes.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-nes.png)
-
 
 ### Grid version
 
