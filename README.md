@@ -32,16 +32,24 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 ## Requirements
 
 - A Raspberry Pi 3/4 - not tested on another hardware, but there's no reason it shouldn't work.
-- Retropie 4.7+ - not tested on another version.
+- Retropie 4.7+ or Recalbox 7+ - not tested on another version.
 - A 16:9 screen in 1080p. This pack will be wrong in any other resolution. And it's useless on a 4:3 screen, since you don't have black borders.
 - The configuration is optimized to work on a Raspbery Pi 3/4. It will work on more powerful hardware, but maybe not on less.
 
-## Installation
+## Installation on Retropie
 
 - Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
 - Open the `configs` shared folder on you retropie installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content!
 - Copy the content of the chosen overlays folder into the share, and overwrite the files.
+
+## Installation on Recalbox
+
+- Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
+- Open the shared folder on you retropie installation (`\\recalbox\` on Windows, `smb://recalbox/` on Mac)
+- Navigate to `recalbox/system/configs/retroarch`
+- **Recommended:** backup the folder content!
+- Copy the content of the overlays folder into the share, and overwrite the files.
 
 ## Modification
 
