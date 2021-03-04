@@ -2,13 +2,17 @@
 
 Overlays (or bezels) are images added "above" the emulator, to mask the black borders around the image.
 
-This pack adds overlays for most common systems emulated by Retropie. The overlays are selected to be **subtle**, and to represent the original hardware in some way. So, no bright logos or colorful mascots.
+This pack adds overlays for most systems emulated by Retropie & Recalbox. The overlays are selected to be **subtle**, and to represent the original hardware in some way. So, no bright logos or colorful mascots.
 
 If you prefer brighter overlays, browse the [_sources](https://github.com/cosmo0/retropie-overlays/tree/master/_sources) folder, there are a LOT of them.
 
 **Usage of the pack in a commercial product is strictly forbidden.**
 
 ## Credits
+
+Most overlays have been created by [Marblemad & Kam3leon](https://screenscraper.fr/forumsujet.php?frub=43&fsuj=182), [OrionsAngel](https://www.youtube.com/channel/UCG1g7PE9yzd4MboQQa9OYWA) and [Duimon](https://github.com/Duimon/HSM-Reflection-Shader-Graphics).
+
+The shaders have been created by [ghogan42](https://retropie.org.uk/forum/topic/13356/).
 
 Please see [credits](CREDITS.md) to check out the awesome original packs I picked from.  
 I did mostly nothing except move files around and edit config files.
