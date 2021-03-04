@@ -50,6 +50,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 - Navigate to `recalbox/system/configs/retroarch`
 - **Recommended:** backup the folder content!
 - Copy the content of the overlays folder into the share, and overwrite the files.
+- In the Recalbox main menu, open the settings (start) > games options > make sure "pixel perfect" is unchecked.
 
 ## Modification
 
