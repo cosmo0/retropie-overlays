@@ -56,8 +56,18 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 - Open the shared folder on you Recalbox installation (`\\recalbox\` on Windows, `smb://recalbox/` on Mac)
 - Navigate to `recalbox/system/configs/retroarch`
 - **Recommended:** backup the folder content!
-- Copy the content of the overlays folder into the share, and overwrite the files.
+- Copy the content of the overlays folder into the folder; no file should be overwritten, unless you already installed an overlay pack.
 - In the Recalbox main menu, open the settings (start) > games options > make sure "pixel perfect" is unchecked.
+- If you have installation issues, check the doc: [EN](https://recalbox.gitbook.io/documentation/advanced-user/configuration/configuration-overload/retroarch-overloads#overlays) / [FR](https://recalbox.gitbook.io/documentation/v/francais/tutoriels/personnalisation-du-frontend/configurer-des-overlays-4.1#overlays-par-systeme)
+
+## Installation on Batocera
+
+- Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
+- Open the shared folder on you Batocera installation (`\\batocera\` on Windows, `smb://batocera/` on Mac)
+- Navigate to `/decorations/` and create a new folder; name it whatever you want, let's say `cosmo0`, then create a `systems` sub-folder.
+- Copy the content of the overlays folder into the new sub-folder (`/decorations/cosmo0/systems/`).
+- In the Batocera main menu, open the settings (start) > games settings > Integer scale = OFF, decoration = cosmo0.
+- If you have installation issues, [follow the docs](https://wiki.batocera.org/customize_decorations_bezels)
 
 ## Modification
 
