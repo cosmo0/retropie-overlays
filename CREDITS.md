@@ -24,5 +24,6 @@ The order of the packs is the order I found them.
 - [DOSBox Overlay by Ifan](https://forums.libretro.com/t/dosbox-overlay-4k/19236)
 - [Classic CRT Collection by TreyM](https://github.com/TreyM/classic-crt-collection)
 - [Recalbox 7.x overlays](https://forum.recalbox.com/topic/22321/recalbox-7-x-overlays-complets)
+- [Batocera bezels](https://github.com/batocera-linux/batocera-bezel)
 
 Usage of these packs in a commercial product are strictly forbidden.

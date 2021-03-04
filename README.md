@@ -1,8 +1,8 @@
-# Retropie & Recalbox overlays packs
+# Retropie / Recalbox / Batocera overlays packs
 
 Overlays (or bezels) are images added "above" the emulator, to mask the black borders around the image.
 
-This pack adds overlays for most systems emulated by Retropie & Recalbox. The overlays are selected to be **subtle**, and to represent the original hardware in some way. So, no bright logos or colorful mascots.
+This pack adds overlays for most systems emulated by Retropie, Recalbox & Batocera. The overlays are selected to be **subtle**, and to represent the original hardware in some way. So, no bright logos or colorful mascots.
 
 If you prefer brighter overlays, browse the [_sources](https://github.com/cosmo0/retropie-overlays/tree/master/_sources) folder, there are a LOT of them.
 
