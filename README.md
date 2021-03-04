@@ -6,7 +6,9 @@ This pack adds overlays for most systems emulated by Retropie & Recalbox. The ov
 
 If you prefer brighter overlays, browse the [_sources](https://github.com/cosmo0/retropie-overlays/tree/master/_sources) folder, there are a LOT of them.
 
-**Usage of the pack in a commercial product is strictly forbidden.**
+Note that Recalbox already has [a system-complete overlays pack](https://forum.recalbox.com/topic/22321/recalbox-7-x-overlays-complets), but it has a few choices that I don't like.
+
+**Usage of the pack in a commercial product is strictly forbidden.** But if you want to use this pack as a basis for your own personnal project, cool!
 
 ## Credits
 
@@ -44,14 +46,14 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 ## Installation on Retropie
 
 - Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
-- Open the `configs` shared folder on you retropie installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
+- Open the `configs` shared folder on you Recalbox installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content!
 - Copy the content of the chosen overlays folder into the share, and overwrite the files.
 
 ## Installation on Recalbox
 
 - Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
-- Open the shared folder on you retropie installation (`\\recalbox\` on Windows, `smb://recalbox/` on Mac)
+- Open the shared folder on you Recalbox installation (`\\recalbox\` on Windows, `smb://recalbox/` on Mac)
 - Navigate to `recalbox/system/configs/retroarch`
 - **Recommended:** backup the folder content!
 - Copy the content of the overlays folder into the share, and overwrite the files.

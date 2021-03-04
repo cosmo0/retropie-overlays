@@ -3,7 +3,7 @@
 ## Installation
 
 - Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
-- Open the shared folder on you retropie installation (`\\recalbox\` on Windows, `smb://recalbox/` on Mac)
+- Open the shared folder on you Recalbox installation (`\\recalbox\` on Windows, `smb://recalbox/` on Mac)
 - Navigate to `/recalbox/system/configs/retroarch`
 - **Recommended:** backup the folder content!
 - Copy the content of the overlays folder into the share, and overwrite the files.
