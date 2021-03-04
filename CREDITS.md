@@ -4,6 +4,8 @@ Most of the heavy work has been done by others. I have mostly moved files around
 
 I honestly do not remember where I picked each overlay since I spent a LOT of time browsing various forums. Here are a few places I picked images from. I have not used all of them.
 
+The order of the packs is the order I found them.
+
 - [Shaders by ghogan42](https://retropie.org.uk/forum/topic/13356/)
 - Libretro overlays: [overlay-borders](https://github.com/libretro/overlay-borders) ; [common-overlays](https://github.com/libretro/common-overlays)
 - [Pack by Marblemad and Kam3leon](https://www.screenscraper.fr/forumsujet.php?frub=43&fsuj=182)
@@ -21,5 +23,6 @@ I honestly do not remember where I picked each overlay since I spent a LOT of ti
 - [The Mega Bezel Commodore Pack by TheNamec](https://forums.libretro.com/t/thenamec-mega-bezel-commodore-pack-announcement/31523)
 - [DOSBox Overlay by Ifan](https://forums.libretro.com/t/dosbox-overlay-4k/19236)
 - [Classic CRT Collection by TreyM](https://github.com/TreyM/classic-crt-collection)
+- [Recalbox 7.x overlays](https://forum.recalbox.com/topic/22321/recalbox-7-x-overlays-complets)
 
 Usage of these packs in a commercial product are strictly forbidden.
