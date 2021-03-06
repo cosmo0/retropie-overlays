@@ -25,16 +25,9 @@ If one of your file is here and you want me to remove it, or want to be credited
 
 Full screen emulators, full set:
 
+- [Batocera](overlays_batocera): simple overlays
 - [Recalbox](overlays_recalbox): simple overlays
 - [Retropie](overlays_retropie): overlays with shaders applied to simulate CRT scanlines and LCD grids
-
-Integer-scaled emulators, limited set (11 systems):
-
-- [overlays_grid_integer](overlays_grid_integer): overlays with an included grid to simulate scanlines
-
-What is integer-scaling? It's when the displayed resolution is a multiple of the original console resolution.  
-Why does it matter? It looks better, since there are no "TV pixel" in-between 2 "emulator pixel". And shaders applied are usually better-looking.  
-However, an integer-scaled emulator does not take up the whole screen. So if you prefer a large image than a crisp image, use a non-integer-scaled version.
 
 ## Requirements
 
@@ -80,10 +73,4 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 Click for a larger version.  
 The screenshots are frankly not as good-looking as on the TV.
 
-### Shader version
-
 [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-gba.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-gba.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-ms.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-ms.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-neogeo.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-neogeo.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-shader-nes.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/shader-nes.png)
-
-### Grid version
-
-[![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-gbc.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-gbc.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-gg.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-gg.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-pce.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-pce.png) [![screenshot](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/thumb-grid-castle.jpg)](https://raw.githubusercontent.com/cosmo0/retropie-overlays/docs/screenshots/grid-snes.png)
