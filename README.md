@@ -48,7 +48,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 - Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
 - Open the `configs` shared folder on you Recalbox installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content!
-- Copy the content of the chosen overlays folder into the share, and overwrite the files.
+- Copy the folders into the share, and overwrite the files.
 
 ## Installation on Recalbox
 
@@ -56,7 +56,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 - Open the shared folder on you Recalbox installation (`\\recalbox\` on Windows, `smb://recalbox/` on Mac)
 - Navigate to `recalbox/system/configs/retroarch`
 - **Recommended:** backup the folder content!
-- Copy the content of the overlays folder into the folder; no file should be overwritten, unless you already installed an overlay pack.
+- Copy the overlays (cfg files) into the folder; no file should be overwritten, unless you already installed an overlay pack.
 - In the Recalbox main menu, open the settings (start) > games settings > make sure "integer scale (pixel perfect)" is unchecked.
 - If you have installation issues, check the doc: [EN](https://recalbox.gitbook.io/documentation/advanced-user/configuration/configuration-overload/retroarch-overloads#overlays) / [FR](https://recalbox.gitbook.io/documentation/v/francais/tutoriels/personnalisation-du-frontend/configurer-des-overlays-4.1#overlays-par-systeme)
 
@@ -65,7 +65,7 @@ However, an integer-scaled emulator does not take up the whole screen. So if you
 - Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
 - Open the shared folder on you Batocera installation (`\\batocera\` on Windows, `smb://batocera/` on Mac)
 - Navigate to `/decorations/` and create a new folder; name it whatever you want, let's say `cosmo0`, then create a `systems` sub-folder.
-- Copy the content of the overlays folder into the new sub-folder (`/decorations/cosmo0/systems/`).
+- Copy the cfg files into the new sub-folder (`/decorations/cosmo0/systems/`).
 - In the Batocera main menu, open the settings (start) > games settings > integer scale = OFF, decoration = cosmo0.
 - If you have installation issues, [follow the docs](https://wiki.batocera.org/customize_decorations_bezels)
 
