@@ -39,7 +39,7 @@ Full screen emulators, full set:
 ## Installation on Retropie
 
 - Download [the latest release](https://github.com/cosmo0/retropie-overlays/releases)
-- Open the `configs` shared folder on you Recalbox installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
+- Open the `configs` shared folder on you Retropie installation (`\\retropie\configs\` on Windows, `smb://retropie/configs` on Mac)
 - **Recommended:** backup the folder content!
 - Copy the folders into the share, and overwrite the files.
 
